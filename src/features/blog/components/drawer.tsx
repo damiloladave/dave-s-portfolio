@@ -30,7 +30,6 @@ function Drawer({ children }: { children: React.ReactNode }) {
     <DrawerPrimitive.Root
       data-slot="drawer"
       open={open}
-      // Thanks @david-bell-brown (https://github.com/emilkowalski/vaul/issues/517#issuecomment-2571619213)
       // eslint-disable-next-line jsx-a11y/no-autofocus
       autoFocus
       onOpenChange={setOpen}
