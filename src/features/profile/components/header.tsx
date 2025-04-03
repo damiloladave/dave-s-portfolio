@@ -7,8 +7,8 @@ import { ChanhDaiAvatar } from "./chanhdai-avatar";
 import { DamilolaHello } from "./damilola-hello";
 import { IconVerified } from "./icon-verified";
 import { Nav } from "./nav/nav";
-import { NavGitHub } from "./nav/nav-github";
 import { NavDropdown } from "./nav/nav-dropdown";
+import { NavGitHub } from "./nav/nav-github";
 
 export function Header() {
   return (

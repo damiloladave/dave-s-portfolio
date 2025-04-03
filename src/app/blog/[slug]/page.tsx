@@ -9,8 +9,8 @@ import { getAllPosts } from "@/features/blog/utils/content";
 import { Footer } from "@/features/profile/components/footer";
 import { HeaderMotion } from "@/features/profile/components/header-motion";
 import { Nav } from "@/features/profile/components/nav/nav";
-import { NavGitHub } from "@/features/profile/components/nav/nav-github";
 import { NavDropdown } from "@/features/profile/components/nav/nav-dropdown";
+import { NavGitHub } from "@/features/profile/components/nav/nav-github";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();

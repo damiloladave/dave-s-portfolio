@@ -1,9 +1,9 @@
 {
-  "name": "Benjamin David",
-  "version": "2025.february",
+  "name": "damiloladave",
+  "version": "2025-february",
   "description": "This is my portfolio website, showcasing my work and experience as a Full-Stack Developer.",
   "author": {
-    "name": "Benjamin David",
+    "name": "damiloladave",
     "email": "loomiedave@gmail.com",
     "url": "https://github.com/loomiedave"
   },
@@ -33,7 +33,7 @@
     "dayjs": "^1.11.13",
     "gray-matter": "^4.0.3",
     "he": "^1.2.0",
-    "iconsax-react": "^0.0.8",
+    "iconsax-react": "0.0.8",
     "libphonenumber-js": "^1.11.19",
     "lodash": "^4.17.21",
     "lucide-react": "^0.475.0",
@@ -60,8 +60,9 @@
     "@tailwindcss/postcss": "^4.0.5",
     "@tailwindcss/typography": "^0.5.16",
     "@types/he": "^1.2.3",
+    "@types/json-schema": "^7.0.15",
     "@types/lodash": "^4.17.12",
-    "@types/node": "^20.14.12",
+    "@types/node": "^20.17.30",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "@typescript-eslint/eslint-plugin": "^6.20.0",

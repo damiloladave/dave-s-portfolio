@@ -1,11 +1,8 @@
 "use client";
 
-import { RepeatIcon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import React, { useCallback, useState } from "react";
 
-import { Button } from "@/components/ui/button";
-import { SimpleTooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/cn";
 import {
   AppleHelloEnglishEffect
@@ -16,7 +13,6 @@ const layers = ["hello", "insert-word"] as const;
 export function Hello() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const canRestart = currentIndex === layers.length - 1;
 
   const nextAnimation = useCallback(() => {
     setTimeout(() => {
