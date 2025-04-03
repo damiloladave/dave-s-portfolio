@@ -13,4 +13,4 @@ export const META_THEME_COLORS = {
   dark: "#09090b",
 };
 
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/damiloladave/dave-s-portfolio.com";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/damiloladave/dave-s-portfolio.git";
